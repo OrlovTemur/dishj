@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./fonts/stylesheet.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="flex" style="margin-top: 80px;">
+            <div class="flex">
+                <p class="title">Dashboard</p>
+                <button class="add">Добавить задачу</button>
+            </div>
+            <input type="text" class="search" placeholder="Поиск по задачам">
+        </div>
+        <div class="flex" style="width: 295px;">
+            <p class="text">Показать задачи как:</p>
+            <p class="tabl text">Таблица</p>
+            <p class="plit text">Плитка</p>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="top">
+            <div class="left">
+                <p>Заголовок задачи</p>
+                <p>Описание задачи</p>
+            </div>
+            <div class="right">
+                <p>Дата</p>
+                <p>Время</p>
+                <p>Выполнено</p>
+            </div>
+        </div>
+        <div class="list">
+            
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./data.js"></script>
+</body>
+</html>
+
